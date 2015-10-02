@@ -56,6 +56,7 @@ public class Utils {
                 return ((BitmapDrawable) drawable).getBitmap();
             }
         }
+        //Todo 下面一段代码不懂
         view.clearFocus();
         Bitmap bitmap = createBitmapSafely(view.getWidth(),
                 view.getHeight(), Bitmap.Config.ARGB_8888, 1);
